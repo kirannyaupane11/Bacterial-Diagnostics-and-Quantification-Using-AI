@@ -18,12 +18,12 @@ Manual bacterial counting under a microscope is slow, inconsistent, and requires
 
 | Metric | Score |
 |--------|-------|
-| Dice Coefficient (test) | **79.6%** |
-| IoU Score | **66.2%** |
-| Precision | **76.9%** |
-| Recall | **83.3%** |
-| Best Val Dice (epoch 90) | **82.4%** |
-| Counting error reduction | **78%** (64 → 14 total errors) |
+| Dice Coefficient (test) | **81.1%** |
+| IoU Score | **68.2%** |
+| Precision | **73.6%** |
+| Recall | **90.6%** |
+| Best Val Dice (epoch 150) | **82.4%** |
+| Counting error reduction | **73%** (63 → 10 total errors) |
 
 ---
 
