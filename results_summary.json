@@ -1,0 +1,22 @@
+{
+  "model": "U-Net Bacteria Segmentation",
+  "dataset": "DeepBacs Staphylococcus aureus",
+  "training": {
+    "epochs": 100,
+    "train_samples": 67,
+    "val_samples": 17,
+    "best_val_dice": 0.8273,
+    "final_accuracy": 0.9645
+  },
+  "evaluation": {
+    "dice_coefficient": 0.8109,
+    "iou_score": 0.682,
+    "precision": 0.7358,
+    "recall": 0.9063
+  },
+  "counting": {
+    "avg_predicted": 35.8,
+    "avg_actual": 46.6,
+    "avg_error": 10.8
+  }
+}
